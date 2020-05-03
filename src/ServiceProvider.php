@@ -53,7 +53,11 @@ class ServiceProvider extends BaseServiceProvider
         ], 'migrations');
 
         $this->publishes([
-            __DIR__ . '/../config/base.php' => config_path('base')
+            __DIR__ . '/../config/base.php' => config_path('base.php')
         ], 'config');
+
+        $this->publishes([
+            __DIR__ . '/../public/' => public_path('vendor/base')
+        ], 'public');
     }
 }
