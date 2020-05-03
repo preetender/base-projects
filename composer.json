@@ -1,0 +1,16 @@
+{
+    "name": "preetender/base-projects",
+    "description": "base para projetos laravel",
+    "authors": [
+        {
+            "name": "Cesar Augusto",
+            "email": "cesinhagutierres@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Preetender\\Base\\": "src/"
+        }
+    }
+}
