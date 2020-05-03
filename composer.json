@@ -8,9 +8,17 @@
         }
     ],
     "require": {},
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Preetender\\Base\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Preetender\\Base\\ServiceProvider"
+            ]
         }
     }
 }
