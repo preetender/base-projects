@@ -9,6 +9,7 @@
     ],
     "require": {},
     "minimum-stability": "stable",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Preetender\\Base\\": "src/"
